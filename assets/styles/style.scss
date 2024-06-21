@@ -1,0 +1,12 @@
+@import './tailwind.scss';
+
+#title {
+  text-decoration: underline 3px solid black;
+}
+
+.custom {
+  &_table {
+    font-size: calc(100% * 3/4);
+    table-layout: fixed;
+  }
+}
